@@ -10,6 +10,12 @@ commonly used libraries. This program will take in a document of raw data,
  for users to see. Anyone should be able to run this program with python installed
  on their machine.
 """
+# To run this program from this repository,
+# First, make sure to have pip installed. use command |pip3 install pandas| to get libraries set up
+# Then you must specify python3 in your python command.
+# | python3 bikeshare_2.py |
+# the above command will initiate the program, which will direct the user for prompts.
+
 # city data holds our data frames
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -97,7 +103,8 @@ def load_data(city, month, day):
 def time_stats(df, city):
     """Displays statistics on the most frequent times of travel."""
 
-    print(f'\nCalculating The Most Frequent Times of Travel for {city}...\n')
+    print(f'\nCalculating The Most Frequent Times of Travel for {city} ...\n')
+
     start_time = time.time()
 
     # These first two if statements save time, because
@@ -296,9 +303,13 @@ def main():
                 break
 
         else:
+            print("\n\n\n")
             time_stats(df,city)
+            print("\n\n\n")
             station_stats(df)
+            print("\n\n\n")
             trip_duration_stats(df)
+            print("\n\n\n")
             user_stats(df)
             raw_ask = input("\n That's all of the data we have! Would you like to view the raw data?\n Type 'yes' to view raw data, all other input will skip this. \n")
             if raw_ask.lower() == 'yes':
