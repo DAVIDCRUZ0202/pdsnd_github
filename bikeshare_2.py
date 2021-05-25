@@ -296,9 +296,13 @@ def main():
                 break
 
         else:
+            print("\n\n\n")
             time_stats(df,city)
+            print("\n\n\n")
             station_stats(df)
+            print("\n\n\n")
             trip_duration_stats(df)
+            print("\n\n\n")
             user_stats(df)
             raw_ask = input("\n That's all of the data we have! Would you like to view the raw data?\n Type 'yes' to view raw data, all other input will skip this. \n")
             if raw_ask.lower() == 'yes':
