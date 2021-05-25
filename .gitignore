@@ -1,1 +1,3 @@
 .github/**
+# hide all data files
+*.csv
