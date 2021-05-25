@@ -9,6 +9,13 @@ Bikeshare Project
 ### Description
 Statistically analyze US Bikeshare datasets to gain insights.
 
+### Libraries Used
+Pandas
+NumPy
+math
+time
+
+
 ### Files used
 bikeshare_2.py, if you need the data files, send me a message!
 
