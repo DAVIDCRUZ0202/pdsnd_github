@@ -3,6 +3,13 @@ import pandas as pd
 import numpy as np
 import math
 
+"""
+This is a small project to showcase the power of python and it's most 
+commonly used libraries. This program will take in a document of raw data,
+ calculate some useful statistics, and produce results in a digestible format
+ for users to see. Anyone should be able to run this program with python installed
+ on their machine.
+"""
 # city data holds our data frames
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
