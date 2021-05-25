@@ -15,3 +15,5 @@ bikeshare_2.py, if you need the data files, send me a message!
 ### Credits
 Credits to the Udacity team for the coursework!
 
+### Contact Info
+E-mail me at dcman1211@gmail.com to chat.
