@@ -305,5 +305,6 @@ def main():
             if restart.lower() != 'yes':
                 break
 
+# use this to initiate the main loop for the program
 if __name__ == "__main__":
 	main()
